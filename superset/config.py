@@ -196,7 +196,7 @@ SECRET_KEY = "AAAAB3NzaC1yc2EAAAADAQABAAABAQCIG70pHo3VC4K981B8M//qcnJzMDl+wDdi"
 
 # The SQLAlchemy connection string.
 SQLALCHEMY_DATABASE_URI = "sqlite:///" + os.path.join(DATA_DIR, "superset.db")
-# SQLALCHEMY_DATABASE_URI = 'mysql://myapp@localhost/myapp'
+#SQLALCHEMY_DATABASE_URI = 'mysql://myapp@localhost/myapp'
 # SQLALCHEMY_DATABASE_URI = 'postgresql://root:password@localhost/myapp'
 
 # In order to hook up a custom password store for all SQLALCHEMY connections
@@ -294,7 +294,7 @@ LOGO_TARGET_PATH = None
 LOGO_TOOLTIP = ""
 
 # Specify any text that should appear to the right of the logo
-LOGO_RIGHT_TEXT: Union[Callable[[], str], str] = ""
+LOGO_RIGHT_TEXT: Union[Callable[[], str], str] = "Sahel Data Expertise Mali"
 
 # Enables SWAGGER UI for superset openapi spec
 # ex: http://localhost:8080/swagger/v1
